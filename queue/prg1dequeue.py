@@ -1,0 +1,10 @@
+from collections import deque
+p=deque()
+p.append(1)
+p.append(2)
+p.append(3)
+print(p)
+p.appendleft(0)
+print(p)
+p.pop()
+print(p)
